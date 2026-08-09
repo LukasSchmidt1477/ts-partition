@@ -1,11 +1,11 @@
 # Array partition
 
-Split an array into two groups based on a predicate, in a single pass.
+Split a list into matching and non-matching values in one pass.
 
-Pure standard library. No dependencies, no setup.
+TypeScript Partition uses only the typescript standard library; there is no service or dependency to install.
 
 ```
 partition.ts
 ```
 
-Usage is covered by the test file sitting next to the source.
+Run the TypeScript Partition test next to the implementation for concrete examples.
