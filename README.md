@@ -1,11 +1,11 @@
 # Array partition
 
-Split a list into matching and non-matching values in one pass.
+Splitting arrays usually means looping twice or writing messy logic. This does it in a single pass. Keeps the bundle small and saves a few CPU cycles.
 
-TypeScript Partition uses only the typescript standard library; there is no service or dependency to install.
+It relies entirely on the TypeScript standard library. Zero external dependencies. I don't have time to manage extra packages, and neither do you. Just drop the file in your project and ship.
 
 ```
 partition.ts
 ```
 
-Run the TypeScript Partition test next to the implementation for concrete examples.
+Check the test file sitting right next to the implementation. It shows exactly how to use it so you can get back to building features.
